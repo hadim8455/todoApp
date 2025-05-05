@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.mainContainer{
+    width: 50%;
+    
+    height: 100vh;
+    margin: auto auto;
+    
+}
+.mainContainer fieldset{
+    margin-top: 20%;
+    margin-right: 100px;
+    /* margin: auto auto; */
+    /* margin: auto; */
+    padding: 10px;
+    width: 50%;
+    height: 50%;
+    background-color: beige;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    position: relative;
+    
+}
+.mainContainer fieldset legend{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    font-size: x-large  ;
+}
+.inputContainer input{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    
+} 
+.inputContainer button{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    justify-content: center;
+}
+

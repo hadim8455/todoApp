@@ -1,0 +1,76 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.navMain{
+    border: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgrey;
+    
+}
+.navMain ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    cursor: pointer;
+}
+ul li:hover{
+    text-decoration: underline;
+}
+
+.todoMain{
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+    /* border: 3px solid lightblue; */
+    margin-top: 50px;
+    /* height: 300px; */
+    gap: 10px;
+}
+.todoMain input{
+    width: 30%;
+    height: 28px;
+    border-radius: 5px;
+    border: 2px solid lightgrey;
+    outline: none;
+    
+}
+.todoMain button{
+    background-color: lightgreen;
+    border-radius: 5px;
+    width: 100px;
+    height: 28px;
+    /* color: white; */
+    border-style: none;
+    cursor: pointer;
+}
+.todoMain button:hover{
+    text-decoration: underline;
+} 
+
+.listContainer{
+    width: 50%;
+    margin: 30px auto;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+    background-color: lightgrey;
+
+}
+.listContainer button{
+    background-color: lightgreen;
+    border-radius: 5px;
+    width: 100px;
+    height: 28px;
+    /* color: white; */
+    border-style: none;
+    cursor: pointer;
+}
+.listContainer button:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="todostyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body onload="renderUI()">
+<section> 
+    <div class="navMain">
+        <!-- <h2>logo</h2> -->
+         <a href="./index.html">LOGO</a>
+
+
+        <ul>
+            <li>Home</li>
+            <li>Profile</li>
+        </ul>
+    </div>
+
+</section>
+
+<section>
+    <div class="todoMain">
+        <input type="text" id="todoInput" placeholder=" Write a note...">
+
+        <button onclick="submitBtn()">Submit</button>
+        <button onclick="deleteBtn()">Delete All</button>
+    </div>
+    <div class="listContainer" id="listContainer">
+        <!-- <h1>Text Enter</h1>
+        <div>
+            <button>Edit</button>
+            <button>Delete</button>
+        </div> -->
+    </div>
+</section>
+</body>
+<script src="todo.js"></script>
+</html>

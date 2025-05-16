@@ -59,9 +59,13 @@ function logIn(){
         if(email.value === value.email && password.value === value.password){
             alert("success Full Login")
 
+            // var userLogin = {
+            //     name: "hadi",
+            //     email: "hadim8455@gmail.com"
+            // }
             var userLogin = {
-                name: "hadi",
-                email: "hadim8455@gmail.com"
+                email: value.email,
+                password: value.password
             }
 
             localStorage.setItem("userLogin",JSON.stringify(userLogin))

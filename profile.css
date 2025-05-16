@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.mainContainer fieldset{
+    width: 50%;
+    height: 70%;
+    background-color: lightgrey;
+    border-radius: 10px;
+    border: none;
+    /* text-align: center; */
+    position: relative;
+    
+}
+.mainContainer fieldset legend{
+    /* width: 10%; */
+    display: block;
+    margin: 0 auto;
+    font-size: x-large  ;
+}
+.inputContainer input{
+    display: flex;
+    width: 90%;
+    margin: 0px auto;   
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+    
+} 
+.inputContainer button{
+    display: flex;
+    width: 90%;
+    margin: 0px auto;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    border: none;
+    justify-content: center;
+    cursor: pointer;
+    background-color: lightgreen;
+}
+.inputContainer button:hover{
+    text-decoration: underline;
+}
+
+.navMain{
+    border: none;
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgrey;
+    
+}
+.navMain ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    cursor: pointer;
+}
+ul a:hover{
+    text-decoration: underline;
+}

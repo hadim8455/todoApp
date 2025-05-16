@@ -57,15 +57,15 @@ function renderUI(){
     }
     
 }
-function deleteBtn(){
+function deleteAll(){
     var deleteBtn = localStorage.removeItem("todoData")
+    // console.log(deleteBtn)
     renderUI()
 }
 
 function editBtn(indexNumber){
     var editArr = JSON.parse(localStorage.getItem("todoData"))
     var object = editArr[indexNumber]
-    // console.log("func call",object.todo)
     var editPrompt = prompt("Enter Update Value...", object.todo)
     console.log("newValue", editPrompt)
 

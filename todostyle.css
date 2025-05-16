@@ -19,7 +19,7 @@
     list-style: none;
     cursor: pointer;
 }
-ul li:hover{
+ul a:hover{
     text-decoration: underline;
 }
 
